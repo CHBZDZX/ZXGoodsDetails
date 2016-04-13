@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88B24BBC1C9A50DD00E59EE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B24BBB1C9A50DD00E59EE2 /* main.m */; };
+		88B24BBF1C9A50DD00E59EE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B24BBE1C9A50DD00E59EE2 /* AppDelegate.m */; };
+		88B24BC21C9A50DD00E59EE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B24BC11C9A50DD00E59EE2 /* ViewController.m */; };
+		88B24BC51C9A50DD00E59EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B24BC31C9A50DD00E59EE2 /* Main.storyboard */; };
+		88B24BC71C9A50DD00E59EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B24BC61C9A50DD00E59EE2 /* Assets.xcassets */; };
+		88B24BCA1C9A50DD00E59EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B24BC81C9A50DD00E59EE2 /* LaunchScreen.storyboard */; };
+		88B24BD51C9A50DD00E59EE2 /* ZXGoodsDetails___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B24BD41C9A50DD00E59EE2 /* ZXGoodsDetails___________Tests.m */; };
+		88B24BE01C9A50DD00E59EE2 /* ZXGoodsDetails___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B24BDF1C9A50DD00E59EE2 /* ZXGoodsDetails___________UITests.m */; };
+		88B24BF41C9A60A600E59EE2 /* ZXGoodsDetailsHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B24BF31C9A60A600E59EE2 /* ZXGoodsDetailsHeadView.m */; };
+		88B24BF71C9A7AAA00E59EE2 /* ZXScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B24BF61C9A7AAA00E59EE2 /* ZXScrollView.m */; };
+		88B24BFB1C9AA61C00E59EE2 /* ZXHeadViewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B24BFA1C9AA61C00E59EE2 /* ZXHeadViewTwo.m */; };
+		88B24C021C9AA7F100E59EE2 /* UILabel+ZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B24C011C9AA7F100E59EE2 /* UILabel+ZX.m */; };
+		88B24C051C9AA86000E59EE2 /* UIButton+ZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B24C041C9AA86000E59EE2 /* UIButton+ZX.m */; };
+		A766AC601C9F8CE1009FE520 /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A766AC5F1C9F8CE1009FE520 /* FirstTableViewCell.m */; };
+		A766AC621C9F8F7F009FE520 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A766AC611C9F8F7F009FE520 /* QuartzCore.framework */; };
+		A7ADC1391C9FEE0100424970 /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ADC1381C9FEE0100424970 /* UIViewController+KNSemiModal.m */; };
+		A7ADC13F1C9FF4AD00424970 /* MyTheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ADC13E1C9FF4AD00424970 /* MyTheViewController.m */; };
+		A7ADC1421C9FF50C00424970 /* GoodsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ADC1411C9FF50C00424970 /* GoodsDetailsViewController.m */; };
+		A7ADC1441C9FF5FA00424970 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7ADC1431C9FF5FA00424970 /* UIKit.framework */; };
+		A7ADC1461C9FF60700424970 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7ADC1451C9FF60700424970 /* Foundation.framework */; };
+		A7ADC1481C9FF61500424970 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7ADC1471C9FF61500424970 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88B24BD11C9A50DD00E59EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B24BAF1C9A50DD00E59EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B24BB61C9A50DD00E59EE2;
+			remoteInfo = "ZXGoodsDetails-(模仿淘宝商品详情)";
+		};
+		88B24BDC1C9A50DD00E59EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B24BAF1C9A50DD00E59EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B24BB61C9A50DD00E59EE2;
+			remoteInfo = "ZXGoodsDetails-(模仿淘宝商品详情)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88B24BB71C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZXGoodsDetails-(模仿淘宝商品详情).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B24BBB1C9A50DD00E59EE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88B24BBD1C9A50DD00E59EE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88B24BBE1C9A50DD00E59EE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88B24BC01C9A50DD00E59EE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88B24BC11C9A50DD00E59EE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88B24BC41C9A50DD00E59EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88B24BC61C9A50DD00E59EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88B24BC91C9A50DD00E59EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88B24BCB1C9A50DD00E59EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B24BD01C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZXGoodsDetails-(模仿淘宝商品详情)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B24BD41C9A50DD00E59EE2 /* ZXGoodsDetails___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZXGoodsDetails___________Tests.m"; sourceTree = "<group>"; };
+		88B24BD61C9A50DD00E59EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B24BDB1C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZXGoodsDetails-(模仿淘宝商品详情)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B24BDF1C9A50DD00E59EE2 /* ZXGoodsDetails___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZXGoodsDetails___________UITests.m"; sourceTree = "<group>"; };
+		88B24BE11C9A50DD00E59EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B24BF01C9A530900E59EE2 /* ZXGoodsDetails.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGoodsDetails.pch; sourceTree = "<group>"; };
+		88B24BF21C9A60A600E59EE2 /* ZXGoodsDetailsHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGoodsDetailsHeadView.h; sourceTree = "<group>"; };
+		88B24BF31C9A60A600E59EE2 /* ZXGoodsDetailsHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGoodsDetailsHeadView.m; sourceTree = "<group>"; };
+		88B24BF51C9A7AAA00E59EE2 /* ZXScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXScrollView.h; sourceTree = "<group>"; };
+		88B24BF61C9A7AAA00E59EE2 /* ZXScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXScrollView.m; sourceTree = "<group>"; };
+		88B24BF81C9A81E000E59EE2 /* ZXGoodsDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGoodsDetails.h; sourceTree = "<group>"; };
+		88B24BF91C9AA61C00E59EE2 /* ZXHeadViewTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHeadViewTwo.h; sourceTree = "<group>"; };
+		88B24BFA1C9AA61C00E59EE2 /* ZXHeadViewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHeadViewTwo.m; sourceTree = "<group>"; };
+		88B24C001C9AA7F100E59EE2 /* UILabel+ZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZX.h"; sourceTree = "<group>"; };
+		88B24C011C9AA7F100E59EE2 /* UILabel+ZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZX.m"; sourceTree = "<group>"; };
+		88B24C031C9AA86000E59EE2 /* UIButton+ZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZX.h"; sourceTree = "<group>"; };
+		88B24C041C9AA86000E59EE2 /* UIButton+ZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZX.m"; sourceTree = "<group>"; };
+		A766AC5E1C9F8CE1009FE520 /* FirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
+		A766AC5F1C9F8CE1009FE520 /* FirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
+		A766AC611C9F8F7F009FE520 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A7ADC1371C9FEE0100424970 /* UIViewController+KNSemiModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KNSemiModal.h"; sourceTree = "<group>"; };
+		A7ADC1381C9FEE0100424970 /* UIViewController+KNSemiModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KNSemiModal.m"; sourceTree = "<group>"; };
+		A7ADC13D1C9FF4AD00424970 /* MyTheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTheViewController.h; sourceTree = "<group>"; };
+		A7ADC13E1C9FF4AD00424970 /* MyTheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTheViewController.m; sourceTree = "<group>"; };
+		A7ADC1401C9FF50C00424970 /* GoodsDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsDetailsViewController.h; sourceTree = "<group>"; };
+		A7ADC1411C9FF50C00424970 /* GoodsDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsDetailsViewController.m; sourceTree = "<group>"; };
+		A7ADC1431C9FF5FA00424970 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7ADC1451C9FF60700424970 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7ADC1471C9FF61500424970 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88B24BB41C9A50DD00E59EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7ADC1481C9FF61500424970 /* CoreGraphics.framework in Frameworks */,
+				A7ADC1461C9FF60700424970 /* Foundation.framework in Frameworks */,
+				A7ADC1441C9FF5FA00424970 /* UIKit.framework in Frameworks */,
+				A766AC621C9F8F7F009FE520 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B24BCD1C9A50DD00E59EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B24BD81C9A50DD00E59EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88B24BAE1C9A50DD00E59EE2 = {
+			isa = PBXGroup;
+			children = (
+				A7ADC1471C9FF61500424970 /* CoreGraphics.framework */,
+				A7ADC1451C9FF60700424970 /* Foundation.framework */,
+				A7ADC1431C9FF5FA00424970 /* UIKit.framework */,
+				A766AC611C9F8F7F009FE520 /* QuartzCore.framework */,
+				88B24BB91C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情) */,
+				88B24BD31C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)Tests */,
+				88B24BDE1C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)UITests */,
+				88B24BB81C9A50DD00E59EE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88B24BB81C9A50DD00E59EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88B24BB71C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情).app */,
+				88B24BD01C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)Tests.xctest */,
+				88B24BDB1C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88B24BB91C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情) */ = {
+			isa = PBXGroup;
+			children = (
+				A7ADC1361C9FEE0100424970 /* Source */,
+				88B24BBD1C9A50DD00E59EE2 /* AppDelegate.h */,
+				88B24BBE1C9A50DD00E59EE2 /* AppDelegate.m */,
+				88B24BC01C9A50DD00E59EE2 /* ViewController.h */,
+				88B24BC11C9A50DD00E59EE2 /* ViewController.m */,
+				A7ADC13D1C9FF4AD00424970 /* MyTheViewController.h */,
+				A7ADC13E1C9FF4AD00424970 /* MyTheViewController.m */,
+				A7ADC1401C9FF50C00424970 /* GoodsDetailsViewController.h */,
+				A7ADC1411C9FF50C00424970 /* GoodsDetailsViewController.m */,
+				88B24BF11C9A604B00E59EE2 /* View */,
+				88B24BF01C9A530900E59EE2 /* ZXGoodsDetails.pch */,
+				88B24BC31C9A50DD00E59EE2 /* Main.storyboard */,
+				88B24BC61C9A50DD00E59EE2 /* Assets.xcassets */,
+				88B24BC81C9A50DD00E59EE2 /* LaunchScreen.storyboard */,
+				88B24BCB1C9A50DD00E59EE2 /* Info.plist */,
+				88B24BBA1C9A50DD00E59EE2 /* Supporting Files */,
+			);
+			path = "ZXGoodsDetails-(模仿淘宝商品详情)";
+			sourceTree = "<group>";
+		};
+		88B24BBA1C9A50DD00E59EE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88B24BBB1C9A50DD00E59EE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88B24BD31C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				88B24BD41C9A50DD00E59EE2 /* ZXGoodsDetails___________Tests.m */,
+				88B24BD61C9A50DD00E59EE2 /* Info.plist */,
+			);
+			path = "ZXGoodsDetails-(模仿淘宝商品详情)Tests";
+			sourceTree = "<group>";
+		};
+		88B24BDE1C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				88B24BDF1C9A50DD00E59EE2 /* ZXGoodsDetails___________UITests.m */,
+				88B24BE11C9A50DD00E59EE2 /* Info.plist */,
+			);
+			path = "ZXGoodsDetails-(模仿淘宝商品详情)UITests";
+			sourceTree = "<group>";
+		};
+		88B24BF11C9A604B00E59EE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88B24BF81C9A81E000E59EE2 /* ZXGoodsDetails.h */,
+				88B24BF21C9A60A600E59EE2 /* ZXGoodsDetailsHeadView.h */,
+				88B24BF31C9A60A600E59EE2 /* ZXGoodsDetailsHeadView.m */,
+				88B24BF51C9A7AAA00E59EE2 /* ZXScrollView.h */,
+				88B24BF61C9A7AAA00E59EE2 /* ZXScrollView.m */,
+				88B24BF91C9AA61C00E59EE2 /* ZXHeadViewTwo.h */,
+				88B24BFA1C9AA61C00E59EE2 /* ZXHeadViewTwo.m */,
+				88B24C001C9AA7F100E59EE2 /* UILabel+ZX.h */,
+				88B24C011C9AA7F100E59EE2 /* UILabel+ZX.m */,
+				88B24C031C9AA86000E59EE2 /* UIButton+ZX.h */,
+				88B24C041C9AA86000E59EE2 /* UIButton+ZX.m */,
+				A766AC5E1C9F8CE1009FE520 /* FirstTableViewCell.h */,
+				A766AC5F1C9F8CE1009FE520 /* FirstTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7ADC1361C9FEE0100424970 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A7ADC1371C9FEE0100424970 /* UIViewController+KNSemiModal.h */,
+				A7ADC1381C9FEE0100424970 /* UIViewController+KNSemiModal.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88B24BB61C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B24BE41C9A50DD00E59EE2 /* Build configuration list for PBXNativeTarget "ZXGoodsDetails-(模仿淘宝商品详情)" */;
+			buildPhases = (
+				88B24BB31C9A50DD00E59EE2 /* Sources */,
+				88B24BB41C9A50DD00E59EE2 /* Frameworks */,
+				88B24BB51C9A50DD00E59EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZXGoodsDetails-(模仿淘宝商品详情)";
+			productName = "ZXGoodsDetails-(模仿淘宝商品详情)";
+			productReference = 88B24BB71C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情).app */;
+			productType = "com.apple.product-type.application";
+		};
+		88B24BCF1C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B24BE71C9A50DD00E59EE2 /* Build configuration list for PBXNativeTarget "ZXGoodsDetails-(模仿淘宝商品详情)Tests" */;
+			buildPhases = (
+				88B24BCC1C9A50DD00E59EE2 /* Sources */,
+				88B24BCD1C9A50DD00E59EE2 /* Frameworks */,
+				88B24BCE1C9A50DD00E59EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B24BD21C9A50DD00E59EE2 /* PBXTargetDependency */,
+			);
+			name = "ZXGoodsDetails-(模仿淘宝商品详情)Tests";
+			productName = "ZXGoodsDetails-(模仿淘宝商品详情)Tests";
+			productReference = 88B24BD01C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88B24BDA1C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B24BEA1C9A50DD00E59EE2 /* Build configuration list for PBXNativeTarget "ZXGoodsDetails-(模仿淘宝商品详情)UITests" */;
+			buildPhases = (
+				88B24BD71C9A50DD00E59EE2 /* Sources */,
+				88B24BD81C9A50DD00E59EE2 /* Frameworks */,
+				88B24BD91C9A50DD00E59EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B24BDD1C9A50DD00E59EE2 /* PBXTargetDependency */,
+			);
+			name = "ZXGoodsDetails-(模仿淘宝商品详情)UITests";
+			productName = "ZXGoodsDetails-(模仿淘宝商品详情)UITests";
+			productReference = 88B24BDB1C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88B24BAF1C9A50DD00E59EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZX;
+				TargetAttributes = {
+					88B24BB61C9A50DD00E59EE2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					88B24BCF1C9A50DD00E59EE2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 88B24BB61C9A50DD00E59EE2;
+					};
+					88B24BDA1C9A50DD00E59EE2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 88B24BB61C9A50DD00E59EE2;
+					};
+				};
+			};
+			buildConfigurationList = 88B24BB21C9A50DD00E59EE2 /* Build configuration list for PBXProject "ZXGoodsDetails-(模仿淘宝商品详情)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88B24BAE1C9A50DD00E59EE2;
+			productRefGroup = 88B24BB81C9A50DD00E59EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88B24BB61C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情) */,
+				88B24BCF1C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)Tests */,
+				88B24BDA1C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88B24BB51C9A50DD00E59EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B24BCA1C9A50DD00E59EE2 /* LaunchScreen.storyboard in Resources */,
+				88B24BC71C9A50DD00E59EE2 /* Assets.xcassets in Resources */,
+				88B24BC51C9A50DD00E59EE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B24BCE1C9A50DD00E59EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B24BD91C9A50DD00E59EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88B24BB31C9A50DD00E59EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B24BC21C9A50DD00E59EE2 /* ViewController.m in Sources */,
+				A7ADC13F1C9FF4AD00424970 /* MyTheViewController.m in Sources */,
+				A7ADC1391C9FEE0100424970 /* UIViewController+KNSemiModal.m in Sources */,
+				A766AC601C9F8CE1009FE520 /* FirstTableViewCell.m in Sources */,
+				A7ADC1421C9FF50C00424970 /* GoodsDetailsViewController.m in Sources */,
+				88B24C021C9AA7F100E59EE2 /* UILabel+ZX.m in Sources */,
+				88B24BBF1C9A50DD00E59EE2 /* AppDelegate.m in Sources */,
+				88B24BF71C9A7AAA00E59EE2 /* ZXScrollView.m in Sources */,
+				88B24BFB1C9AA61C00E59EE2 /* ZXHeadViewTwo.m in Sources */,
+				88B24BBC1C9A50DD00E59EE2 /* main.m in Sources */,
+				88B24C051C9AA86000E59EE2 /* UIButton+ZX.m in Sources */,
+				88B24BF41C9A60A600E59EE2 /* ZXGoodsDetailsHeadView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B24BCC1C9A50DD00E59EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B24BD51C9A50DD00E59EE2 /* ZXGoodsDetails___________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B24BD71C9A50DD00E59EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B24BE01C9A50DD00E59EE2 /* ZXGoodsDetails___________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88B24BD21C9A50DD00E59EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B24BB61C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情) */;
+			targetProxy = 88B24BD11C9A50DD00E59EE2 /* PBXContainerItemProxy */;
+		};
+		88B24BDD1C9A50DD00E59EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B24BB61C9A50DD00E59EE2 /* ZXGoodsDetails-(模仿淘宝商品详情) */;
+			targetProxy = 88B24BDC1C9A50DD00E59EE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88B24BC31C9A50DD00E59EE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B24BC41C9A50DD00E59EE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88B24BC81C9A50DD00E59EE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B24BC91C9A50DD00E59EE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88B24BE21C9A50DD00E59EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88B24BE31C9A50DD00E59EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88B24BE51C9A50DD00E59EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZXGoodsDetails-(模仿淘宝商品详情)/ZXGoodsDetails.pch";
+				INFOPLIST_FILE = "ZXGoodsDetails-(模仿淘宝商品详情)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZX.ZXGoodsDetails-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88B24BE61C9A50DD00E59EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZXGoodsDetails-(模仿淘宝商品详情)/ZXGoodsDetails.pch";
+				INFOPLIST_FILE = "ZXGoodsDetails-(模仿淘宝商品详情)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZX.ZXGoodsDetails-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88B24BE81C9A50DD00E59EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZXGoodsDetails-(模仿淘宝商品详情)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZX.ZXGoodsDetails-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXGoodsDetails-(模仿淘宝商品详情).app/ZXGoodsDetails-(模仿淘宝商品详情)";
+			};
+			name = Debug;
+		};
+		88B24BE91C9A50DD00E59EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZXGoodsDetails-(模仿淘宝商品详情)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZX.ZXGoodsDetails-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXGoodsDetails-(模仿淘宝商品详情).app/ZXGoodsDetails-(模仿淘宝商品详情)";
+			};
+			name = Release;
+		};
+		88B24BEB1C9A50DD00E59EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZXGoodsDetails-(模仿淘宝商品详情)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZX.ZXGoodsDetails-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZXGoodsDetails-(模仿淘宝商品详情)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		88B24BEC1C9A50DD00E59EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZXGoodsDetails-(模仿淘宝商品详情)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZX.ZXGoodsDetails-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZXGoodsDetails-(模仿淘宝商品详情)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88B24BB21C9A50DD00E59EE2 /* Build configuration list for PBXProject "ZXGoodsDetails-(模仿淘宝商品详情)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B24BE21C9A50DD00E59EE2 /* Debug */,
+				88B24BE31C9A50DD00E59EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B24BE41C9A50DD00E59EE2 /* Build configuration list for PBXNativeTarget "ZXGoodsDetails-(模仿淘宝商品详情)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B24BE51C9A50DD00E59EE2 /* Debug */,
+				88B24BE61C9A50DD00E59EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B24BE71C9A50DD00E59EE2 /* Build configuration list for PBXNativeTarget "ZXGoodsDetails-(模仿淘宝商品详情)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B24BE81C9A50DD00E59EE2 /* Debug */,
+				88B24BE91C9A50DD00E59EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B24BEA1C9A50DD00E59EE2 /* Build configuration list for PBXNativeTarget "ZXGoodsDetails-(模仿淘宝商品详情)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B24BEB1C9A50DD00E59EE2 /* Debug */,
+				88B24BEC1C9A50DD00E59EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88B24BAF1C9A50DD00E59EE2 /* Project object */;
+}
